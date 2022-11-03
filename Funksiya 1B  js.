@@ -1,0 +1,24 @@
+function sum (a,b){
+    return a + b ; ///O(1)
+}
+function multiply (a,b){
+    return a*b;   // O(1)
+}
+function subtract (a,b){
+    return b/a;   // O(1)
+}
+let result = sum (3,1)
+console.log(result)
+
+
+
+result = multiply (3,1)
+console.log(result)
+
+
+result = subtract(3,1)
+console.log(result)
+
+
+result = divide (3,1)
+console.log(result)
