@@ -1,0 +1,13 @@
+int[] numbers = new int[] { 1, 2, 3, 4 } ;
+Console.WriteLine("Before the loop");
+for(int i = 0; i < numbers.Length; i++)
+{
+    Console.Write(numbers[i] + "  ");
+}
+
+Console.WriteLine("\n\n After the loop");
+for (int i = 0; i < numbers.Length; i++)
+{
+    numbers[i] = numbers[i] + 1;
+    Console.Write(numbers[i] + "  ");
+}
